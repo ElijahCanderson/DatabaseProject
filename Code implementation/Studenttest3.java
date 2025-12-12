@@ -18,9 +18,9 @@ import oracle.jdbc.pool.OracleDataSource;
 //import sun.jvm.hotspot.code.SafepointBlob;
 
 public class Studenttest3 {
-    static final String DB_URL = "jdbc:oracle:thin:@cs174adb_tp?TNS_ADMIN=C:/Users/eli/Downloads/project/demo/wallet";
-    static final String APP_USER = "STUDENT_ACCESS"; // shared DB user
-    static final String APP_PASSWORD = "Somebodyplease23";
+    static final String DB_URL = "";
+    static final String APP_USER = ""; // shared DB user
+    static final String APP_PASSWORD = "";
 
      public static void main(String[] args) {
         String perm = "001421";
@@ -744,3 +744,4 @@ public static void insertNewCourse(String courseID, String title, String enrollC
 }
 
 }
+
