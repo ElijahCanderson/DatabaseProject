@@ -10,9 +10,9 @@ import oracle.jdbc.OracleConnection;
 import oracle.jdbc.pool.OracleDataSource;
 
 public class Studenttest1 {
-    static final String ADMIN_URL = "jdbc:oracle:thin:@cs174adb_tp?TNS_ADMIN=C:/Users/eli/Downloads/project/demo/wallet";
-    static final String ADMIN_USER = "ADMIN";
-    static final String ADMIN_PASSWORD = "Somebodyplease2#";
+    static final String ADMIN_URL = "";
+    static final String ADMIN_USER = "";
+    static final String ADMIN_PASSWORD = "";
 
     public static void main(String[] args) {
         int perm = 121231131;
@@ -99,3 +99,4 @@ public static void testStudentLogin(int perm, String pin) throws SQLException {
         return (OracleConnection) ods.getConnection();
     }
 }
+
